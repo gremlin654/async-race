@@ -1,0 +1,30 @@
+.header__ {
+  &container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &button {
+    min-height: 2.5rem;
+    min-width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: solid 0.2rem #4aa5be;
+    background-color: transparent;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    padding: 0 0.3rem;
+    a {
+      display: flex;
+      min-height: 2.5rem;
+      min-width: 3rem;
+      color: white;
+      align-items: center;
+    }
+    &:hover {
+      background: #4aa5be;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.winners {
+  &__title {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+
+  &__pages {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__table {
+    thead {
+      color: white;
+      background: rgb(167, 167, 255);
+      th {
+        width: 8rem;
+        height: 3rem;
+        text-align: center;
+      }
+    }
+    tbody {
+      background: rgb(66, 66, 81);
+      th {
+        width: 8rem;
+        height: 3rem;
+        text-align: center;
+      }
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,9 @@
+.table thead {
+  color: white;
+  background: rgb(167, 167, 255);
+}
+.table thead th {
+  width: 8rem;
+  height: 3rem;
+  text-align: center;
+}

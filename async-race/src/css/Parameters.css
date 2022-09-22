@@ -1,0 +1,49 @@
+.btn-parametrs {
+  text-align: center;
+  font-size: 12px;
+  width: 70px;
+  height: 24px;
+  border: 2px solid rgb(210, 206, 206);
+  border-radius: 5px;
+  background: rgb(241, 255, 47);
+  transition: 0.3s;
+}
+.btn-parametrs:hover {
+  color: white;
+  background: rgb(187, 198, 38);
+}
+
+.create__btn {
+  background: greenyellow;
+}
+.create__btn:hover {
+  background: rgb(135, 199, 39);
+}
+
+.update__input,
+.create__input {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.state-btn__race {
+  background: rgb(47, 255, 99);
+  width: 90px;
+}
+.state-btn__race:hover {
+  background: rgb(35, 180, 72);
+}
+.state-btn__reset {
+  background-color: rgb(226, 26, 26);
+  width: 90px;
+}
+.state-btn__reset:hover {
+  background: rgb(170, 20, 20);
+}
+.state-btn__generate {
+  background-color: rgb(228, 220, 220);
+  width: 131px;
+}
+.state-btn__generate:hover {
+  background: rgb(190, 183, 183);
+}

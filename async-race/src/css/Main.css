@@ -1,0 +1,16 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.update__container,
+.create__container,
+.state-btn__container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
